@@ -10,3 +10,11 @@ The following is a description of all the components and procedures that we have
    4. **Synthetic data generator.** Here we create new synthetic data starting from the type of passenger that we want to generate (survived or not survived) and the features are sampled from the distributions that we have identified in the dataset. We do not use all the features of the dataset, but we only restrict to: pclass, sex, age, sibsp, fare, parch, embarked. For each of the two classes of passengers, we have analysed the distributions of these features in order to have a more correct sampling when generating synthetic data.
    5. **Batch inference pipeline.** This component receives a new batch of synthetic data and infers the class of each sample.
    6. **UI to show historical performance.** This component shows a web UI displaying the most recent passenger prediction and outcom, as well as a confusion matrix with historical prediction performance.
+
+### Repository Contents
+
+   1. `hugging_face/` contains the code for inferencing on a new data point. [URL link](https://huggingface.co/spaces/vishalned/scalable_ml_lab1_0)
+   2. `hugging_face_monitoring/` contains the code for displaying the results from the batch inferencing. [URL link](https://huggingface.co/spaces/vishalned/scalable_ml_lab1)
+   3. `titanic/` contains all the rest of the pipeline files.
+   
+   
