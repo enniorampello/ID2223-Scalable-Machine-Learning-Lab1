@@ -9,6 +9,8 @@ if LOCAL == False:
    @stub.function(image=hopsworks_image, schedule=modal.Period(days=1), secret=modal.Secret.from_name("scalable_ml"))
    def f():
        g()
+#123
+
 
 def g():
     import pandas as pd
