@@ -1,0 +1,6 @@
+[submodule "scalable_ml_lab1"]
+	path = scalable_ml_lab1
+	url = https://huggingface.co/spaces/vishalned/scalable_ml_lab1
+[submodule "scalable_ml_lab1_0"]
+	path = scalable_ml_lab1_0
+	url = https://huggingface.co/spaces/vishalned/scalable_ml_lab1_0
