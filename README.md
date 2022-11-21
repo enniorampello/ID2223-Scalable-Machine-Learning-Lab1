@@ -1,5 +1,5 @@
 # ID2223-Scalable-Machine-Learning-Lab1
-Lab 1 of the course ID2223 Scalable Machine Learning at KTH. 
+Lab 1 of the course ID2223 Scalable Machine Learning at KTH.\
 Group members: Ennio Rampello, Vishal Nedungadi
 
 The objective of this work is the implementation of a complete Machine Learning pipeline for both training and inference. The pipeline consists of different components with different purposes, where each one can be scaled independently of the others, based on the specific load.
